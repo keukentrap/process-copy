@@ -1,0 +1,592 @@
+
+
+
+@article{azamar2019electronic,
+	title={Electronic referral systems in health care: a scoping review},
+	author={Azamar-Alonso, Amilcar and Costa, Andrew P and Huebner, Lori-Anne and Tarride, Jean-Eric},
+	journal={ClinicoEconomics and outcomes research: CEOR},
+	volume={11},
+	pages={325},
+	year={2019},
+	publisher={Dove Press}
+}
+
+@article{duell2005blcrdesign,
+	title={{The design and implementation of Berkeley lab's Linux checkpoint/restart}},
+	author={Duell, Jason},
+	year={2005},
+	institution={Lawrence Berkeley National Laboratory}
+}
+
+@inproceedings{laadan2007transparent,
+	title={Transparent Checkpoint-Restart of Multiple Processes on Commodity Operating Systems.},
+	author={Laadan, Oren and Nieh, Jason},
+	booktitle={USENIX Annual Technical Conference},
+	pages={323--336},
+	year={2007}
+}
+
+@article{zhong2001crak,
+	title={{CRAK: Linux checkpoint/restart as a kernel module}},
+	author={Zhong, Hua and Nieh, Jason},
+	year={2001},
+	month={11},
+	note={Technical report},
+	journal = {{Department of Computer Science Columbia University}},
+}
+
+@INPROCEEDINGS{laadan2005commodity,
+	author={Laadan, Oren and Phung, Dan and Nieh, Jason},
+	booktitle={2005 IEEE International Conference on Cluster Computing}, 
+	title={Transparent Checkpoint-Restart of Distributed Applications on Commodity Clusters}, 
+	year={2005},
+	volume={},
+	number={},
+	pages={1-13},
+	doi={10.1109/CLUSTR.2005.347039}
+}
+
+@article{osman2003zap,
+	author = {Osman, Steven and Subhraveti, Dinesh and Su, Gong and Nieh, Jason},
+	title = {{The Design and Implementation of Zap: A System for Migrating Computing Environments}},
+	year = {2003},
+	issue_date = {Winter 2002},
+	publisher = {Association for Computing Machinery},
+	address = {New York, NY, USA},
+	volume = {36},
+	number = {SI},
+	issn = {0163-5980},
+	doi = {10.1145/844128.844162},
+	abstract = {We have created Zap, a novel system for transparent migration of legacy and networked applications. Zap provides a thin virtualization layer on top of the operating system that introduces pods, which are groups of processes that are provided a consistent, virtualized view of the system. This decouples processes in pods from dependencies to the host operating system and other processes on the system. By integrating Zap virtualization with a checkpoint-restart mechanism, Zap can migrate a pod of processes as a unit among machines running independent operating systems without leaving behind any residual state after migration. We have implemented a Zap prototype in Linux that supports transparent migration of unmodified applications without any kernel modifications. We demonstrate that our Linux Zap prototype can provide general-purpose process migration functionality with low overhead. Our experimental results for migrating pods used for running a standard user's X windows desktop computing environment and for running an Apache web server show that these kinds of pods can be migrated with subsecond checkpoint and restart latencies.},
+	journal = {SIGOPS Oper. Syst. Rev.},
+	month = {12},
+	pages = {361–376},
+	numpages = {16}
+}
+
+@INPROCEEDINGS{krueger1988load,
+	author={Krueger, P. and Livny, M.},
+	booktitle={[1988] Proceedings. The 8th International Conference on Distributed}, 
+	title={A comparison of preemptive and non-preemptive load distributing}, 
+	year={1988},
+	volume={},
+	number={},
+	pages={123-130},	
+	doi={10.1109/DCS.1988.12509}
+}
+
+@article{turianmalware2023,
+	author={{Unit 42}},
+	title={{Chinese Playful} Taurus Activity in {Iran}},
+	date={2023-01-18},
+	journal={{Palo Alto Networks}},
+	url={https://unit42.paloaltonetworks.com/playful-taurus/},
+	note={malware analysis report},
+}
+
+@article{backdoordiplomacy2023,
+	author={Adam Burgher},
+	title={{BackdoorDiplomacy: Upgrading from Quarian to Turian}},
+	date={2021-06-10},
+	journal={{ESET}},
+	url = {https://www.welivesecurity.com/2021/06/10/backdoordiplomacy-upgrading-quarian-turian/},
+	note={malware analysis report},
+}
+
+@inproceedings{htet2021podman-criu,
+	author = {Htet, Hein and Funabiki, Nobuo and Kamoyedji, Ariel and Zhou, Xudong and Kuribayashi, Minoru},
+	title = {An Implementation of Job Migration Function Using {CRIU} and {Podman} in {Docker}-Based User-{PC} Computing System},
+	year = {2021},
+	isbn = {9781450390071},
+	publisher = {{Association for Computing Machinery}},
+	address = {New York, NY, USA},
+	doi = {10.1145/3479162.3479176},
+	abstract = {To offer a low-cost and high-performance distributed computing platform, we have studied the user-PC computing (UPC) system based on the master-worker model. The UPC system uses idling resources of personal computers (PCs) for daily usage by users as the workers, to run the requested jobs or application programs that may need various environments on Docker containers. In this paper, we implement a job migration function in the UPC system to speed up the completion by dynamically changing the assigned worker. It adopts Checkpoint-Restore in Userspace (CRIU) to save the data at the job running into image files and Podman to manage the Docker containers. To verify the function, we conduct extensive measurements with nine jobs and four PCs that have different features. The results show that any job was successfully migrated between different PCs, and the migration from a slow PC to a faster PC reduced the total CPU time.},
+	booktitle = {Proceedings of the 9th International Conference on Computer and Communications Management},
+	pages = {92–97},
+	numpages = {6},
+	location = {Singapore, Singapore},
+	series = {ICCCM '21}
+}
+
+@website{undocumented,
+	title = {{NTAPI Undocumented Functions}},
+	url = {http://undocumented.ntinternals.net/},
+	date = {2022-04-25},
+	note = {website, fallback: \url{https://undocumented-ntinternals.github.io/}},
+}
+
+@website{windbg,
+	title = {{Windows Debugger}},
+	author = {{WinDbg}},
+	organisation = {{Microsoft}},
+	url = {https://windbg.org/},
+	date = {2023-04-13},
+	note = {software},
+}
+
+@software{x64dbg,
+	title = {{x64dbg - an open-source x64/x32 debugger for windows}},
+	author = {Duncan Ogilvie},
+	url = {https://x64dbg.com/},
+	date = {2023-05-07},
+	note = {software},
+}
+
+@article{peb-masquerading,
+	title = {{Masquerading Processes in Userland via \_PEB}},
+	author = {{Red Team Notes}},
+	url = {https://www.ired.team/offensive-security/defense-evasion/masquerading-processes-in-userland-through-\_peb},
+	date = {2019-02-01},
+}
+
+@software{visual-studio,
+	title = {{Visual Studio 2022 - IDE and Code Editor for Software Developers and Teams}},
+	author = {{Microsoft}},
+	url = {https://visualstudio.microsoft.com/},
+	version = {{v17.5}},
+}
+
+@software{process-explorer,
+	title = {{Process Explorer - Sysinternals}},
+	author = {{Mark Russinovich}},
+	url = {https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer},
+	version = {v17.04},
+	date = {2023-03-30},
+	note = {software},
+}
+
+@software{system-informer,
+	title = {{System Informer}},
+	author = {{Winsider}},
+	url = {https://systeminformer.sourceforge.io/},
+	version = {3.0.6550},
+	date = {2023-04-15},
+	note = {software},
+}
+
+@software{process-hacker,
+	title  = {{Process Hacker}},
+	author = {{Winsider}},
+	url = {https://processhacker.sourceforge.io/},
+	version = {2.39},
+	note = {software},
+}
+
+@website{process-hacker-docs,
+	title = {{Documentation : Data Structures}},
+	author = {{Process Hacker}},
+	url = {https://processhacker.sourceforge.io/doc/annotated.html},
+	note = {website},
+}
+
+
+@software{afl,
+	author = {Michal Zalewski},
+	title = {american fuzzy lop {{(AFL)}}},
+	url = {https://lcamtuf.coredump.cx/afl/},
+	version = {2.52b},
+	date = {2022-07-06},
+	note = {software},
+}
+
+@software{winafl,
+	author = {{Google Project Zero}},
+	title = {{WinAFL}},
+	url = {https://github.com/googleprojectzero/winafl},
+	date = {2022-12-20},
+	note = {software},
+}
+
+@software{processdump,
+	author = {Geoff McDonald},
+	title = {{Process Dump}},
+	url = {https://www.split-code.com/processdump.html},
+	version = {2.1.1},
+	date = {2022-01-25},
+	note = {software},
+}
+
+@software{ptrace,
+	title = {{ptrace(2) - Linux man page}},
+	author = {{Linux Foundation}},
+	url = {https://linux.die.net/man/2/ptrace},
+	year = {2023},
+	note = {software},
+}
+
+@software{criu,
+	title = {{Checkpoint/Restore In Userspace (CRIU)}},
+	version = {3.17.1},
+	url = {https://criu.org/},
+	date = {2022-07-23},
+	note = {software},
+}
+
+@software{vmadump,
+	title = {{vmadump - Dump the shared VMA of a process}},
+	version = {0.0.1},
+	url = {https://rkoucha.fr/freeware/vmadump/vmadump.html},
+	urldate = {2023-03-09},
+	date = {2020-09-10},
+	note = {software},
+}
+
+@software{cygwin,
+	title = {Cygwin, {Get that Linux feeling - on Windows}},
+	author = {Corinna Vinschen},
+	organization = {{Red Hat, Inc.}},
+	url = {https://cygwin.com/},
+	version = {3.4.6},
+	note = {software},
+}
+
+@website{cygwin-fork,
+	title = {{fork.cc}},
+	author = {{cygwin}},
+	url = {https://github.com/openunix/cygwin/blob/master/winsup/cygwin/fork.cc},
+	urldate = {2023-03-09},
+	version = {3.4.6},
+	note = {code},
+}
+
+@software{dmtcp-windows,
+	title = {{Transparent checkpointing for Windows applications based on the DMTCP project}},
+	author = {Alex Sardan},
+	url = {https://github.com/alexsardan/MTCP-windows},
+	urldate = {2023-03-09},
+	date = {2013-06-16},
+	note = {software},
+}
+
+@software{scilab,
+	title = {{Scilab} - Open source software for numerical computation},
+	author = {{Dassault Systèmes}},
+	url = {https://www.scilab.org/},
+	urldate = {2023-03-09},
+	version = {6.1},
+	note = {software},
+}
+
+@website{scilab-fork,
+	title = {{forkWindows.c}},
+	author = {scilab},
+	url = {https://gitlab.com/scilab/scilab/-/blob/6.1/scilab/modules/parallel/src/c/forkWindows.c},
+	urldate = {2023-03-09},
+	version = {6.1},
+	note = {code},
+}
+
+@software{mosix,
+	title = {{MOSIX Cluster Management System}},
+	author = {Amnon Barak},
+	version = {4.4.4},
+	url = {https://mosix.cs.huji.ac.il/},
+	urldate = {2023-03-09},
+	date = {2017-10-24},
+	note = {software},
+}
+
+@software{blcr,
+	title = {{Berkeley Lab Checkpoint/Restart (BLCR) for LINUX}},
+	author = {Paul H. Hargrove},
+	organisation = {{U.S. Department of Energy}},
+	url = {https://crd.lbl.gov/divisions/amcr/computer-science-amcr/class/research/past-projects/BLCR/},
+	urldate = {2023-03-09},
+	note = {software},
+}
+
+@software{reactos,
+	title = {{ReactOS Project}},
+	organisation = {{ReactOS}},
+	url = {https://reactos.org/},
+	version = {0.4.14},
+	note = {software},
+}
+
+@software{al-khaser,
+	title = {al-khaser - Public malware techniques used in the wild},
+	author = {{LordNoteworthy}},
+	url = {https://github.com/LordNoteworthy/al-khaser},
+	version = {0.81},
+	note = {software},
+}
+
+@software{midipix,
+	title = {{cross-platform programming tool for Windows using the standard C and POSIX APIs}},
+	author = {{midipix}},
+	url = {https://midipix.org/},
+	version = {pre-alpha},
+	date = {2023-05-28},
+	note = {software},
+}
+
+@software{ida-pro,
+	title ={{IDA Pro - state-of-the-art binary code analysis tools}},
+	author = {{Hex-Rays}},
+	url = {https://hex-rays.com/IDA-pro/},
+	note = {software},
+}
+
+@article{microsoft2016wsl,
+	title = {{WSL System Calls}},
+	author = {Stephen Hufnagel},
+	journal = {{Microsoft}},
+	url = {https://learn.microsoft.com/en-us/archive/blogs/wsl/wsl-system-calls},
+	urldate = {2023-03-09},
+	date = {2016-08-06},
+	note = {blog},
+}
+
+@article{process-migration,
+	author = {Miloji\v{c}i\'{c}, Dejan S. and Douglis, Fred and Paindaveine, Yves and Wheeler, Richard and Zhou, Songnian},
+	title = {Process Migration},
+	year = {2000},
+	issue_date = {Sept. 2000},
+	publisher = {Association for Computing Machinery},
+	address = {New York, NY, USA},
+	volume = {32},
+	number = {3},
+	issn = {0360-0300},
+	doi = {10.1145/367701.367728},
+	journal = {ACM Comput. Surv.},
+	month = {9},
+	pages = {241–299},
+	numpages = {59},
+	keywords = {distributed operating systems, process migration, distributed systems, load distribution}
+}
+
+@article{barak1998mosix,
+	title = {The {MOSIX} multicomputer operating system for high performance cluster computing},
+	journal = {Future Generation Computer Systems},
+	volume = {13},
+	number = {4},
+	pages = {361-372},
+	year = {1998},
+	note = {HPCN '97},
+	issn = {0167-739X},
+	doi = {10.1016/S0167-739X(97)00037-X},
+	comment = {https://www.sciencedirect.com/science/article/pii/S0167739X9700037X},
+	author = {Amnon Barak and Oren La'adan},
+	keywords = {Cluster computing, Load-balancing, Preemptive process migration, PVM, Multicomputer systems},
+	abstract = {The scalable computing cluster at Hebrew University consists of 88 Pentium II and Pentium-Pro servers that are connected by fast Ethernet and the Myrinet LANs. It is running the MOSIX operating system, an enhancement of BSD/OS with algorithms for adaptive resource sharing, that are geared for performance scalability in a scalable computing cluster. These algorithms use a preemptive process migration for load-balancing and memory ushering, in order to create a convenient multiuser time-sharing execution environment for HPC, particularly for applications that are written in PVM or MPI. This paper begins with a brief overview of MOSIX and its resource sharing algorithms. Then the paper presents the performance of these algorithms as well as the performance of several large-scale, parallel applications.}
+}
+
+
+@inproceedings{park2011checkpointing-vm,
+	author = {Park, Eunbyung and Egger, Bernhard and Lee, Jaejin},
+	title = {Fast and Space-Efficient Virtual Machine Checkpointing},
+	year = {2011},
+	isbn = {9781450306874},
+	publisher = {Association for Computing Machinery},
+	address = {New York, NY, USA},
+	doi = {10.1145/1952682.1952694},
+	booktitle = {Proceedings of the 7th ACM SIGPLAN/SIGOPS International Conference on Virtual Execution Environments},
+	pages = {75–86},
+	numpages = {12},
+	keywords = {checkpointing, virtual machine},
+	location = {Newport Beach, California, USA},
+}
+
+
+
+@ARTICLE{ousterhout1988sprite,
+	author={Ousterhout, J.K. and Cherenson, A.R. and Douglis, F. and Nelson, M.N. and Welch, B.B.},
+	journal={Computer}, 
+	title={The Sprite network operating system}, 
+	year={1988},
+	volume={21},
+	number={2},
+	pages={23-36},
+	doi={10.1109/2.16}
+}
+
+@article{dijkstra1968structure,
+  title={The structure of the “{THE}”-multiprogramming system},
+  author={Dijkstra, Edsger W},
+  journal={Communications of the ACM},
+  volume={11},
+  number={5},
+  pages={341--346},
+  year={1968},
+  publisher={ACM New York, NY, USA}
+}
+
+
+@inproceedings{baumann2019fork,
+	author = {Baumann, Andrew and Appavoo, Jonathan and Krieger, Orran and Roscoe, Timothy},
+	title = {A Fork() in the Road},
+	year = {2019},
+	isbn = {9781450367271},
+	publisher = {Association for Computing Machinery},
+	address = {New York, NY, USA},
+	doi = {10.1145/3317550.3321435},
+	abstract = {The received wisdom suggests that Unix's unusual combination of fork() and exec() for process creation was an inspired design. In this paper, we argue that fork was a clever hack for machines and programs of the 1970s that has long outlived its usefulness and is now a liability. We catalog the ways in which fork is a terrible abstraction for the modern programmer to use, describe how it compromises OS implementations, and propose alternatives.As the designers and implementers of operating systems, we should acknowledge that fork's continued existence as a first-class OS primitive holds back systems research, and deprecate it. As educators, we should teach fork as a historical artifact, and not the first process creation mechanism students encounter.},
+	booktitle = {Proceedings of the Workshop on Hot Topics in Operating Systems},
+	pages = {14–22},
+	numpages = {9},
+	location = {Bertinoro, Italy},
+	series = {HotOS '19}
+}
+
+@article{ansel2009dmtcp,
+	author = {Ansel, Jason and Arya, Kapil and Cooperman, Gene},
+	year = {2007},
+	month = {02},
+	pages = {},
+	title = {{DMTCP}: Transparent Checkpointing for Cluster Computations and the Desktop},
+	journal = {23rd IEEE International Parallel and Distributed Processing Symposium},
+	doi = {10.1109/IPDPS.2009.5161063}
+}
+
+@inproceedings{laadan2010linux,
+	title={Linux-CR: Transparent application checkpoint-restart in Linux},
+	author={Laadan, Oren and Hallyn, Serge E},
+	booktitle={Linux Symposium},
+	volume={159},
+	year={2010}
+}
+
+@inproceedings{huang1998nt-swift,
+	title={{NT-SwiFT: Software implemented fault tolerance on Windows NT}},
+	organisation={Usenix},
+	author={Chung, P.E. and Yennun Huang and Liang, D. and Chung-Yih Wang and Kintala, Chandra },
+	booktitle={Proceedings of the 1998 USENIX WindowsNT Symposium},
+	year={1998}
+}
+
+@INPROCEEDINGS{chung1999winckp,
+	author={Chung, P.E. and Yennun Huang and Liang, D. and Chung-Yih Wang and Woei-Jyh Lee},
+	booktitle={Digest of Papers. Twenty-Ninth Annual International Symposium on Fault-Tolerant Computing (Cat. No.99CB36352)}, 
+	title={Winckp: a transparent checkpointing and rollback recovery tool for {Windows NT} applications}, 
+	year={1999},
+	volume={},
+	number={},
+	pages={220-223},
+	abstract={The goal of Winckp is to transparently checkpoint and recover applications on {Windows NT}. The definition of transparency is no modifications to applications at all, period. There is no need to get source code, or object code. It does not involve compilation, linking or generation of a different executable. We employ window message logging/replaying to recreate states that are otherwise difficult to recover by checkpointing alone. In the paper, we describe the design and implementation of Winckp, and present the challenges and limitations. The software is available for download from http://www.bell-labs.com/projects/swift.},
+	keywords={},
+	doi={10.1109/FTCS.1999.781053},
+	ISSN={0731-3071},
+	month={6},
+}
+
+@software{winehq,
+	title = {{WineHQ - Run Windows applications on Linux, BSD, Solaris and macOS}},
+	date = {2023-02-02},
+	url = {https://www.winehq.org/},
+	urldate = {2023-03-03},
+	version = {8.3},
+	note = {software},
+}
+
+@website{win32-api,
+	title = {{Programming reference for the Win32 API}},
+	organisation = {{Microsoft}},
+	url = {https://learn.microsoft.com/en-us/windows/win32/api/},
+	urldate = {2022-04-25},
+	note = {documentation},
+}
+
+@article{microsoft2022peb,
+	title={{PEB structure (winternl.h)}},
+	author={{Microsoft}},
+	date = {2022-09-01},
+	url = {https://learn.microsoft.com/en-us/windows/win32/api/winternl/ns-winternl-peb},
+	urldate = {2023-03-09},
+	note = {documentation},
+}
+
+@article{metro2023malware,
+	title={{`Cyber battlefield' map shows attacks being played out live across the globe}},
+	author={Josh Layton},
+	journal={Metro},
+	url={https://www.msn.com/en-gb/news/world/cyber-battlefield-map-shows-attacks-being-played-out-live-across-the-globe/ar-AA1dnaec},
+	note = {news article},
+}
+
+@article{avtest2020report,
+	title={SECURITY REPORT
+2019/2020},
+	author={{AV-TEST}},
+	url = {https://www.av-test.org/fileadmin/pdf/security_report/AV-TEST_Security_Report_2019-2020.pdf},
+	note = {report},
+}
+
+@website{web:winckp,
+	title = {{SwiFT for Windows NT}},
+	author = {{Lucent Technologies}},
+	url = {http://web.archive.org/web/20070912023458/http://www1.bell-labs.com/project/swift/},
+	urldate = {2023-03-09},
+	version = {1.0},
+	date = {1999-08-31},
+	note = {website},
+}
+
+@book{what-makes-it-page,
+	title={What makes it page? The {Windows} 7 (x64) {Virtual Memory Manager}},
+	author={Enrico Martignetti},
+	year = {2012},
+	note = {book},
+}
+
+@book{windows-internals,
+	title={Windows Internals, Part 1: System architecture, processes, threads, memory management, and more},
+	author={Yosifovich, Pavel and Solomon, David A and Ionescu, Alex and Mark E. Russinovich},
+	year={2017},
+	publisher={Microsoft Press},
+	url = {https://learn.microsoft.com/en-us/sysinternals/resources/windows-internals},
+	note = {book},
+}
+
+@book{windows-internals-2,
+	title={Windows Internals, Part 2},
+	author={Yosifovich, Pavel and Solomon, David A and Ionescu, Alex and Mark E. Russinovich},
+	year={2022},
+	publisher={Microsoft Press},
+	note = {book},
+}
+
+@article{paul2006BLCR,
+	doi = {10.1088/1742-6596/46/1/067},
+	year = {2006},
+	month = {9},
+	publisher = {},
+	volume = {46},
+	number = {1},
+	pages = {494},
+	author = {Paul H Hargrove and  Jason C Duell},
+	title = {{Berkeley lab checkpoint/restart (BLCR) for Linux clusters}},
+	journal = {Journal of Physics: Conference Series},
+	abstract = {This article describes the motivation, design and implementation of Berkeley Lab Checkpoint/Restart (BLCR), a system-level checkpoint/restart implementation for Linux clusters that targets the space of typical High Performance Computing applications, including MPI. Application-level solutions, including both checkpointing and fault-tolerant algorithms, are recognized as more time and space efficient than system-level checkpoints, which cannot make use of any application-specific knowledge. However, system-level checkpointing allows for preemption, making it suitable for responding to ‘‘fault precursors’’ (for instance, elevated error rates from ECC memory or network CRCs, or elevated temperature from sensors). Preemption can also increase the efficiency of batch scheduling; for instance reducing idle cycles (by allowing for shutdown without any queue draining period or reallocation of resources to eliminate idle nodes when better fitting jobs are queued), and reducing the average queued time (by limiting large jobs to running during off-peak hours, without the need to limit the length of such jobs). Each of these potential uses makes BLCR a valuable tool for efficient resource management in Linux clusters.}
+}
+
+
+@INPROCEEDINGS{khidhir2012migrationwin7,
+	author={Khidhir, Abdulsattar M. and Mustafa, Bassam A. and Saleh, Nadia T.},
+	booktitle={2012 International Conference on Advanced Computer Science Applications and Technologies (ACSAT)}, 
+	title={{Design and Implementation of a CPU Bound Process Migration in {Windows 7}}}, 
+	year={2012},
+	volume={},
+	number={},
+	pages={360-365},
+	abstract={This paper presents a new mechanism for user-level process migration in a network of homogeneous systems running Windows 7 operating system. The methodology supports the migration of execution entities among nodes during runtime. Within this approach the execution and memory states of a process are transferred dynamically from one node to another in the distributed system. Some other techniques are essentially required in order to achieve migration. These techniques are suspending, check pointing, and resuming the transferred process.},
+	keywords={},
+	doi={10.1109/ACSAT.2012.30},
+	ISSN={},
+	month={11},
+}
+
+@software{Meterpreter,
+	title={{Metasploit Documentation - Meterpreter}},
+	author={{Metasploit Framework}},
+	year= {2022},
+	url = {https://docs.metasploit.com/docs/using-metasploit/advanced/meterpreter/meterpreter.html},
+	note = {software},
+}
+
+@website{Metasploit,
+	title={Metasploit | Penetration Testing Software, Pen Testing Security},
+	url = {https://www.metasploit.com/},
+	year= {2023},
+	note = {website},
+}
